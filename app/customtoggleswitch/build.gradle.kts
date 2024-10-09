@@ -55,7 +55,7 @@ afterEvaluate {
             register<MavenPublication>("release") {
                 groupId = "com.github.madurachandima"
                 artifactId = "customtoggleswitch"
-                version = "1.0.3"
+                version = "1.0.1"
                 afterEvaluate {
                     from(components["release"])
                 }
